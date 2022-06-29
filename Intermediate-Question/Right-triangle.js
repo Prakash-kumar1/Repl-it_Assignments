@@ -3,4 +3,5 @@ const hypotenuse = (perpendicular, base) => {
      return  hypo ;
    }
    console.log( hypotenuse  (3 , 4))
+   console.log( hypotenuse  (6 , 8))
    exports.hypotenuse = hypotenuse;
