@@ -6,4 +6,5 @@ const difference = (num) => {
     return x ;
   }
   console.log(difference  (12))
+  console.log(difference  (15))
   exports.difference = difference
