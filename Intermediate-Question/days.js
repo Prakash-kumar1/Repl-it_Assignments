@@ -1,3 +1,5 @@
+// Question no.-8 : Take a number and convert it to year, months and days. Result: sum of Years months + remaining Days 
+
 function yearMonthDaysSum(num){
     let years = Math.floor(num / 365);
     let months = Math.floor(num % 365 / 30);
