@@ -1,3 +1,6 @@
+// Question no.-2: use callback concept to make pizza:use your best imazination and concept of callbacks to print these 7 steps in order.
+
+
 function inhotel(Callback){
     Callback();
 }
