@@ -37,3 +37,30 @@ function specialNumber(n){
   }
   console.log(specialNumber(145));
   exports.specialNumber = specialNumber
+
+
+  //  OR use this Method
+
+
+// function specialNumber(n){
+//   let temp = n , digit ;
+//   let sum = 0 ;
+//   if (n==0) return "NO"
+//   while(n != 0) {
+//     fact = 1;
+//    digit = n % 10;
+//   n = Math.floor(n/10);
+//     for(let i = digit; i>0; i--){
+//       fact = fact*i
+//     }
+//     // console.log(fact);
+//     sum = sum+fact
+//     // console.log('sum' , sum)
+//   }
+//   if(sum==temp){
+//     return "YES"
+//   }
+//     return 'NO';
+// }
+//  console.log(specialNumber(145));
+// exports.specialNumber = specialNumber
