@@ -1,4 +1,4 @@
-// Question number: - 4   ake an integer N and print the sum of series given below upto N numbers.
+// Question number: - 4   Take an integer N and print the sum of series given below upto N numbers.
 
 // S = 1 + 2/(1+2) + 3/(1+2+3) + 4/(1+2+3+4) …….n/(1+2+3...n)
 
