@@ -18,3 +18,12 @@
 // Note :- The position mentioned in the pos array will always be less than arr array.
 
 
+function change_elements(arr,pos,ele){
+    for(let i in arr){
+      arr[pos[i]] = ele[i] ;
+    }
+    return arr ;
+  }
+  console.log(change_elements([1, 5, 7, 8], [0],[4]))
+  console.log(change_elements([1, 2, 3],[2,1], [-1,5]))
+  exports.change_elements = change_elements
