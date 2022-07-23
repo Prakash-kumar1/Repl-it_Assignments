@@ -8,3 +8,19 @@
 // Sample Output: [3,6,7,10]
 
 
+function more_choclates(arr){
+    let results = [] ;
+     for(let i of arr){
+       // console.log(i)
+       if(i<5){
+         results.push(i+2)
+       }else if(i>10){
+         results.push(i-1)
+       }else{
+         results.push(i)
+       }
+     }
+     return results 
+   }
+   console.log( more_choclates([1, 6, 7, 11]))
+   exports.more_choclates = more_choclates
