@@ -9,3 +9,12 @@
 // Sample Output: 3
 
 
+function vowels(string){
+    // find the count of vowels
+    const count = string.match(/[aeiou]/gi).length;
+  
+      // return number of vowels
+      return count;
+  }
+  console.log(vowels('aircampus'))
+  exports.vowels = vowels
