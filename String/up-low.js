@@ -1,6 +1,6 @@
 // Question no.-5 Given a string, return the string after changing the uppercase characters to lowercase and lowercase characters to uppercase.
 // Input Format :  A string string
-// Output Format: Change all the lowercase characters to uppercase and uppercase character to lowercase 
+// Output Format: Change all the lowercase characters to uppercase & vice-versa , then return the string.
 
 // Sample Input:  AirCampus
 // Sample Output:  aIRcAMPUS
