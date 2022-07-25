@@ -9,3 +9,13 @@
 // Sample Input:  java script
 // Sample Output:  ['j', 'a', 'v', 'a', 's', 'c', 'r', 'i', 'p', 't']
 
+function charArray(str){
+    // for printing each character
+    // for (var i = 0; i < str.length; i++) {
+    // console.log(str.charAt(i));
+  // }
+     return  str.replace(/ /g, '').split('');
+  }
+  console.log(charArray('aircampus'))
+  console.log(charArray('java script'))
+  exports.charArray = charArray
