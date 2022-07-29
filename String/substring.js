@@ -9,3 +9,9 @@
 // Sample Output:  script
 
 
+function substring(str,a,b){
+    return (str.slice(a,b)) ;
+   }
+   console.log(substring('aircampus',3,9))
+   console.log(substring('javascript' ,4 ,10))
+   exports.substring = substring
