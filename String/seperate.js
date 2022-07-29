@@ -11,11 +11,8 @@
 
 
 function stringSep(str1, str2, str3){
-  
-    return str1.split(' ').concat(str2.split(' ')).join(` ${str3} `)
-    
-      }
-    
-    console.log(stringSep('air', 'campus', '-'))
-    console.log(stringSep('javascript','cool','is' ))
+return str1.split(' ').concat(str2.split(' ')).join(` ${str3} `)
+}
+    console.log(stringSep('air', 'campus', '-')) ;
+    console.log(stringSep('javascript','cool','is' )) ;
     exports.stringSep = stringSep
