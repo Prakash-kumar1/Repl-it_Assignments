@@ -12,6 +12,6 @@
 function lastFour(string){
     return (string.slice(-4));
    }
-   console.log(lastFour('aircampus'))
-   console.log(lastFour('Javascript'))
+   console.log(lastFour('aircampus')) ;
+   console.log(lastFour('Javascript')) ;
    exports.lastFour = lastFour
