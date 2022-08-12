@@ -29,6 +29,6 @@ function validEmail(str){
       }
       return true
     }
-    console.log(validEmail('admin@aircampus'))
-    console.log(validEmail('js@aircampus.in'))
+    console.log(validEmail('admin@aircampus')) ;
+    console.log(validEmail('js@aircampus.in')) ;
     exports.validEmail = validEmail
