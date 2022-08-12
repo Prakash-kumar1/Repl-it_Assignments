@@ -23,6 +23,6 @@ function alphanumeric(str){
     }
     
     }
-    console.log(alphanumeric("aircampus"))
-    console.log(alphanumeric("javascr1pt"))
+    console.log(alphanumeric("aircampus")) ;
+    console.log(alphanumeric("javascr1pt")) ;
     exports.alphanumeric = alphanumeric
