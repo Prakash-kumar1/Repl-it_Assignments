@@ -13,6 +13,6 @@
 function appendEnd(str1, str2){
     return str1.concat(str2) ;
    }
-   console.log(appendEnd('air','campus'))
-   console.log(appendEnd('Java' , 'script'))
+   console.log(appendEnd('air','campus'))  ;
+   console.log(appendEnd('Java' , 'script')) ;
    exports.appendEnd = appendEnd
