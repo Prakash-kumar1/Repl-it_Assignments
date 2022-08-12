@@ -31,8 +31,8 @@ function putComma(str){
     }
     return comma;
   }
-  console.log(putComma('100000'))
-  console.log(putComma('87678567465996'))
+  console.log(putComma('100000'))  ;
+  console.log(putComma('87678567465996'))  ;
   exports.putComma = putComma
   
   
