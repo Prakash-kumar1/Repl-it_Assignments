@@ -19,6 +19,6 @@ function palindrome(str){
      }
         return true;
     }
-    console.log( palindrome("arora"))
-    console.log( palindrome("aircampus"))
+    console.log( palindrome("arora")) ;
+    console.log( palindrome("aircampus")) ;
     exports.palindrome = palindrome
