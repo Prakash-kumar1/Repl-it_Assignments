@@ -12,9 +12,9 @@
 function commaSep(str){
     let strans='' ;
        for(i=0;i<str.length;i++){
-         strans=strans+','+str[i]
+         strans=strans+','+str[i] ;
        }
-        return strans.slice(1)
+        return strans.slice(1) ;
    }
    console.log(commaSep('aircampus')) ;
    exports.commaSep = commaSep
@@ -24,7 +24,7 @@ function commaSep(str){
    
    
    function commaSep(str){
-      return str.split('').join(',')
+      return str.split('').join(',') ;
    }
    console.log(commaSep('javascript')) ;
    exports.commaSep = commaSep
