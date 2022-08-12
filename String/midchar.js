@@ -18,6 +18,6 @@ function middleChar(str){
       }
       return result;
     }
-    console.log(middleChar("testing"))
-    console.log(middleChar("test"))
+    console.log(middleChar("testing")) ;
+    console.log(middleChar("test"))  ;
     exports.middleChar = middleChar
