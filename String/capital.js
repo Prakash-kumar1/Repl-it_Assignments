@@ -18,6 +18,6 @@ function capitalization(str){
         });  
         return CapitalizedWords.join(' ');  
     }
-    console.log(capitalization('This is a title'))
-    console.log(capitalization('capitalize every word'))
+    console.log(capitalization('This is a title'))  ;
+    console.log(capitalization('capitalize every word'))  ;
     exports.capitalization = capitalization
