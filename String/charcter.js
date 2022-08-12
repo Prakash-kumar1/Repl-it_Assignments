@@ -16,6 +16,6 @@ function charArray(str){
   // }
      return  str.replace(/ /g, '').split('');
   }
-  console.log(charArray('aircampus'))
-  console.log(charArray('java script'))
+  console.log(charArray('aircampus'))  ;
+  console.log(charArray('java script'))  ;
   exports.charArray = charArray
