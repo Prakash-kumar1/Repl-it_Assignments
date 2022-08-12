@@ -14,8 +14,8 @@ function numberOfBugs(a, b){
      
         // OR 
      
-     return(`Total number of bugs are ${a+b}`)
+     return(`Total number of bugs are ${a+b}`) ;
    }
-   console.log(numberOfBugs(99,99))
+   console.log(numberOfBugs(99,99)) ;
    exports.numberOfBugs = numberOfBugs
    
