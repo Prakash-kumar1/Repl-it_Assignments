@@ -19,7 +19,7 @@ function anagram(str1, str2){
       return false ;
     } 
     }
-    console.log(anagram('elbow' , 'below'))
-    console.log(anagram('night' , 'thin'))
-    console.log(anagram("indian","ndiani"))
+    console.log(anagram('elbow' , 'below')) ;
+    console.log(anagram('night' , 'thin')) ;
+    console.log(anagram("indian","ndiani")) ;
     exports.anagram = anagram
