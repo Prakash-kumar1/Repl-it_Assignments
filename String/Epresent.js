@@ -20,6 +20,6 @@ function counte(string){
     }
     return Count;
   }
-  console.log(counte('aircampus'))
-  console.log(counte('help'))
+  console.log(counte('aircampus')) ;
+  console.log(counte('help'))  ;
   exports.counte = counte
