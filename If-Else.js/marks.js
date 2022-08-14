@@ -19,5 +19,5 @@ function average_marks(num1,num2,num3,num4,num5){
     return "yes"
   }
   }
-  console.log( average_marks(67,72,55,98,86))
+  console.log( average_marks(67,72,55,98,86)) ;
   exports.average_marks = average_marks
