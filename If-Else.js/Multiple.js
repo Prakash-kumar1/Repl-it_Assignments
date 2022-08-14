@@ -19,5 +19,5 @@ function check(num1){
   }
     // return the answer
   }
-  console.log( check(21))
+  console.log( check(21)) ;
   exports.check = check
