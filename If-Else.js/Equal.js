@@ -20,5 +20,5 @@ function equal_numbers(num1,num2){
   }
     // return the answer
   }
-  console.log(equal_numbers(50,50))
+  console.log(equal_numbers(50,50)) ;
   exports.equal_numbers = equal_numbers
