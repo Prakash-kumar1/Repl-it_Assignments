@@ -21,6 +21,6 @@ function odd_even(num){
   }
     // return the answer
   }
-  console.log(odd_even(5))
+  console.log(odd_even(5)) ;
   exports.odd_even = odd_even
   
