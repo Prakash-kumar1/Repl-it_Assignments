@@ -1,4 +1,4 @@
-// Question no-14:Write a JS code to check if the given number is multiple of two.
+// Question no-14: Write a JS code to check if the given number is multiple of two.
 
 // Input: Input is provided as functional parameter.
 
@@ -19,6 +19,6 @@ function is_multiple(num){
     return "no"
   }
   }
-  console.log(is_multiple(7))
-  console.log(is_multiple(6))
+  console.log(is_multiple(7)) ;
+  console.log(is_multiple(6)) ;
   exports.is_multiple = is_multiple
