@@ -19,6 +19,6 @@ function is_multiple(num){
     return "no"
   }
   }
-  console.log( is_multiple(15))
-  console.log( is_multiple(16))
+  console.log( is_multiple(15)) ;
+  console.log( is_multiple(16)) ;
   exports.is_multiple = is_multiple
