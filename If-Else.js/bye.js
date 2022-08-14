@@ -18,6 +18,6 @@ function hello_bye(num){
     return ("Bye")
   }
   }
-  console.log(hello_bye(75))
-  console.log(hello_bye(7))
+  console.log(hello_bye(75)) ;
+  console.log(hello_bye(7)) ;
   exports.hello_bye = hello_bye
