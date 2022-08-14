@@ -19,5 +19,5 @@ function divisible(num){
   }
     // return the answer
   }
-  console.log(divisible(10))
+  console.log(divisible(10)) ;
   exports.divisible = divisible
