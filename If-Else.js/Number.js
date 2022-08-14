@@ -18,11 +18,13 @@ function checkNumber(num){
     // Write your code here
   if (num == 0){
     return 0
+
   } else if (num > 1){
     return 1
+    
   } else {
     return -1
   }
   }
-  console.log (checkNumber(0))
+  console.log (checkNumber(0)) ;
   exports.checkNumber = checkNumber
