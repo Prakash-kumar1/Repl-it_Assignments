@@ -19,5 +19,5 @@ function check_11(num){
     return num ;
   }
   }
-  console.log(check_11(11))
+  console.log(check_11(11)) ;
   exports.check_11 = check_11
