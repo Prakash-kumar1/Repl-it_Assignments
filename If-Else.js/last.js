@@ -20,5 +20,5 @@ function last_digit(num){
     return "no"
   }
   }
-  console.log(last_digit(7))
+  console.log(last_digit(7)) ;
   exports.last_digit = last_digit
