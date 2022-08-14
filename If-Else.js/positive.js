@@ -1,4 +1,4 @@
-// Question number-1:Given a number determine if it positive or negative.
+// Question number-1: Given a number determine if it positive or negative.
 
 // Input: Input is provided as functional parameter.
 
@@ -19,5 +19,5 @@ function is_positive(number){
   }
     // return the answer
   }
-  console.log( is_positive(127))
+  console.log( is_positive(127)) ;
   exports.is_positive = is_positive
