@@ -22,5 +22,5 @@ function largest(num1,num2){
     }
     // return the answer
   }
-  console.log( largest(160,190))
+  console.log( largest(160,190)) ;
   exports.largest = largest
