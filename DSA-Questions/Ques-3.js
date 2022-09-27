@@ -9,6 +9,8 @@
 //Return the number of good triplets.
 
 
+// ##########   Team - A  26th september session  By  Manit  Sir  at  10:30 pm    ########## 
+
 
 function countGoodTriplets(arr, a, b, c) {
     let count = 0;
