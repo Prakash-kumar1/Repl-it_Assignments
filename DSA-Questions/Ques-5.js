@@ -4,6 +4,9 @@
 // let nums = [6,5,4,8];
 
 
+// ##########   Team - A  26th september session  By  Manit  Sir  at  10:30 pm    ########## 
+
+
 let res=[];
 function smallerNumbersThanCurrent(nums){
     for(let i=0; i<nums.length; i++){
