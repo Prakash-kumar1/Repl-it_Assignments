@@ -31,3 +31,27 @@ if(i >= position){
 console.log(Array) ;
 
 
+
+// Question no-3 : Delete Element in new Array 
+
+let nums = [10, 35, 67, 89, 29, 46, 21 , 99]
+let pos = 3 ;
+
+for(let i=pos ; i<nums.length-1; i++){
+    // console.log(nums[i]) ; 
+
+    nums[i] = nums[i+1] ;
+    // console.log(nums[i]) ; 
+
+}
+ nums.length = nums.length-1 ;
+ console.log(nums) ; 
+
+
+
+
+
+
+
+
+
