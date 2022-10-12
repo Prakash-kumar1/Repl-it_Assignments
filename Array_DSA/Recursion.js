@@ -53,22 +53,25 @@ let money = 100 ;
 let banana = 0 ;
 
 function buyBanana(y) {
-    console.log(y) ;
+    // console.log(y) ;
     if(y > 0){
+        console.log("I have " , y , "RS" , banana ,"banana")
         buyMore(y) ;
     }else{
-        console.log("buy more apples" )
+        console.log("Don't buy more Banana , money fully spend" , banana)
     }
     
 }
 
 function buyMore(y){
-    console.log("buy more apples" , y)
+    banana++ ;
+    buyBanana(y - 20)
+    console.log("buy more bananas" , y)
 }
 buyBanana(money) ;
 
 
-
+// ######@@@@@@  Interview  Questions  ######@@@@@@  
 
 
 
