@@ -44,9 +44,28 @@ while(i<Array.length){
 }
 
 
+// There  are  2  types  of recursion 
+// (1) =>  Direct  Recursion :- there is one Function calling itself .
+// (2) =>  In-Direct  Recursion :-  there is 2 Function calling itself on the base of conditions .
 
+// Example of In-Direct Recursion :- 
+let money = 100 ;
+let banana = 0 ;
 
+function buyBanana(y) {
+    console.log(y) ;
+    if(y > 0){
+        buyMore(y) ;
+    }else{
+        console.log("buy more apples" )
+    }
+    
+}
 
+function buyMore(y){
+    console.log("buy more apples" , y)
+}
+buyBanana(money) ;
 
 
 
