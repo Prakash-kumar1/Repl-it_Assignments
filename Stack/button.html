@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stack Operations on Button</title>
+    <script>
+        let data = [] ;
+let currentSize = data.length ;
+let max = 7 ;
+
+function push(){
+    let newVal = document.getElementById('newEl').value ;
+    if(currentSize >= max){
+        alert("Stack is full you can't add" + newVal)
+    }else{
+        data[currentSize] = newVal ;
+// for increasing the size
+    currentSize+=1 ;
+// for emptying the box after input
+document.getElementById('newEl').value = " " ;
+alert("element Added")
+    }
+}
+
+function pop(){
+    if(currentSize > 0){
+        currentSize -= 1 ;
+        data.length = currentSize ;
+    }else{
+        alert("Stack is empty")
+    }
+}
+// push(20) ;
+// push(30) ;
+// push(120) ;
+// push(2) ;
+// push(31) ;
+// pop() ;
+// pop() ;
+// pop() ;
+// pop() ;
+// push("Light") ;
+// push(49) ;
+// pop() ;
+
+// console.log(data) ;
+// console.log(data.length) ;
+
+function display(){
+    for(let i=0; i<=currentSize-1; i++){
+        console.log("stack element no",i,"and value is",data[i]) ;
+    }
+}
+    </script>
+</head>
+
+<body>
+    <h1>Stack Operations with input Button in Javascript</h1>
+
+    <input type="text" placeholder="Enter Stack element" id="newEl">
+    <button onclick="push()">Add element to Stack</button>
+
+    <button onclick="pop()">Remove element from Stack</button>
+
+    <button onclick="display()">Display All elements of Stack</button>
+</body>
+
+</html>
+
