@@ -25,15 +25,35 @@ function dequeue(){
     if(currentSize > 0){
     for(let i=0 ; i<queue.length ; i++){
     // console.log(queue[i]) ;
-        queue[i] = queue[i+1]
+        queue[i] = queue[i + 1]
     }
     currentSize-- ;
     queue.length = currentSize ;
     }else{
         console.log("Queue is already empty.")
     }
-    
+
 }
+
+
+// Interview Question :-  Finding  Front value in Queue ?
+        function front(){
+            if(currentSize > 0){
+                console.log(queue[0]) ;
+            }else{
+                console.log("Queue is already empty.")
+            }
+        }
+           
+        
+// Interview Question :-  Finding  Rear value in Queue ?
+        function rear(){
+            if(currentSize > 0){
+                console.log("Last value",queue[currentSize - 1]) ;
+            }else{
+                console.log("Queue is already empty.")
+            }
+     }
 
 
 enqueue(10) ;
@@ -48,19 +68,11 @@ enqueue(1) ;
 dequeue()
 dequeue()
 dequeue()
-dequeue()
-dequeue()
-dequeue()
+
+front() ;
+rear() ;
 
 display() ;
-
-
-
-
-
-
-
-
 
 
 
