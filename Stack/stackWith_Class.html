@@ -5,24 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stack Operations using Class</title>
+
     <script>
+// when we are using class , there is no need to write keyword like  Let , Function  etc .
         class Stack{
-            constructor(){
-                
+            item = [] ;
+            currentSize ;
+            maxSize ;
+            constructor(size){
+                console.log("call") ;
+                this.maxSize = size ;
+                this.currentSize = this.item.length ;   
             }
-            push(){
 
+            push(newVal){
+                if(this.currentSize >= this.maxSize){
+                    alert("stack is full") ;
+                }else{
+                    this.item[this.currentSize] = newVal ;
+                    this.currentSize++ ;
+                }
             }
+
             pop(){
-
+                if(this.currentSize > 0){
+                    this.currentSize-- ;
+                    this.item.length = this.currentSize ;
+                }else{
+                    alert("stack is already empty.") ;
+                }
             }
+
             display(){
-
+            console.log(this.item)
             }
+
         }
+    st1 = new Stack(5) ;
+    st1.push(20) ;
+    st1.display() ;
     </script>
+
 </head>
 <body>
-    
+    <h1>stack Operations using Class</h1>
 </body>
 </html>
+
+
+
+
+
