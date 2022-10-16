@@ -11,13 +11,24 @@ let queue = [] ;
 let currentSize = queue.length ;
 let maxSize = 5 ;
 
-function enqueue(newVal){
+// function enqueue(newVal){
+//     if(currentSize >= maxSize){
+//         alert("Queue is already full.")
+//     }else{
+//         queue[currentSize] = newVal ;
+//         currentSize++ ;
+//     }
+// }
+
+function enqueueWithBtn(){
+    let newVal = document.getElementById('qEl').value ;
     if(currentSize >= maxSize){
         alert("Queue is already full.")
     }else{
         queue[currentSize] = newVal ;
         currentSize++ ;
     }
+    document.getElementById('qEl').value = " " ;
 }
 
 function display(){
@@ -67,19 +78,29 @@ function dequeue(){
     }
 
 
-enqueue(10) ;
-enqueue(19) ;
-enqueue(150) ;
+// enqueue(10) ;
+// enqueue(19) ;
+// enqueue(150) ;
 
-front() ;
-rear() ;
+// front() ;
+// rear() ;
 
-display() ;
+// display() ;
 
     </script>
 
 </head>
 <body>
-    <h1>Front, Rear and  isEmpty Operations in Queue.</h1>
+
+    <h1>Queue Operations with Input elements in Javascript .</h1>
+    <input placeholder="Enter Element"  id="qEl">
+    <button onclick="enqueueWithBtn()">Add Element</button>
+    <button onclick="dequeue()">Remove Element</button>
+    <button onclick="display()">display Element</button>
+    <button onclick="front()">Get Front Element</button>
+    <button onclick="rear()">Get Rear Element</button>
+    
 </body>
 </html>
+
+
