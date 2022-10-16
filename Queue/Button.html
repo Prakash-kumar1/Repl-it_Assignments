@@ -25,7 +25,7 @@ function display(){
 }
 
 function dequeue(){
-    if(currentSize > 0){
+    if(!isEmpty()){
     for(let i=0 ; i<queue.length ; i++){
     // console.log(queue[i]) ;
         queue[i] = queue[i + 1]
@@ -41,7 +41,7 @@ function dequeue(){
 
 // Interview Question :-  Finding  Front value in Queue ?
         function front(){
-            if(currentSize > 0){
+            if(!isEmpty()){
                 console.log(queue[0]) ;
             }else{
                 alert("Queue is already empty.")
@@ -51,7 +51,7 @@ function dequeue(){
         
 // Interview Question :-  Finding  Rear value in Queue ?
         function rear(){
-            if(currentSize > 0){
+            if(!isEmpty()){
                 console.log("Last value",queue[currentSize - 1]) ;
             }else{
                 alert("Queue is already empty.")
@@ -59,19 +59,26 @@ function dequeue(){
      }
 
 
+    function isEmpty(){
+        if(currentSize <= 0){
+                return true ;
+            }else{
+                return false ;
+            }
+    }
+
+
 enqueue(10) ;
 enqueue(19) ;
 enqueue(150) ;
-
 
 front() ;
 rear() ;
 
 display() ;
 
-
     </script>
-    
+
 </head>
 <body>
     <h1>Front, Rear and  isEmpty Operations in Queue.</h1>
