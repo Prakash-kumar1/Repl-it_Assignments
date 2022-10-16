@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Circular Queue</title>
+    <title>Circular Queue Operations</title>
+    <!-- #######  Need  to watch again from " Code step by step " video no => 20 -->
     <script>
         class Queue{
             constructor(size){
@@ -17,15 +18,15 @@
 
             enqueue(val){
                 if(this.currentSize != this.max){
-                    if( this.rear = this.max-1){
+                    if( this.rear == this.max - 1){
                         this.rear = 0 ;
                     }else{
                         this.rear++ ;
                     }
-                    this.rear++ ;
+
                     this.items[this.rear] = val ;
                     this.currentSize++ ;
-                    if(this.front = -1){
+                    if((this.front == -1)){
                         this.front = this.rear ;
                     }
                 }
@@ -34,6 +35,7 @@
 
 
         let queue = new Queue(5) ;
+        console.log(queue) ;
     </script>
 </head>
 <body>
