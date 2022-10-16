@@ -6,6 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Queue Operations and inputs in Queue</title>
     <script>
+let queue = [] ;
+let currentSize = queue.length ;
+let maxSize = 5 ;
+
+function enqueue(newVal){
+    if(currentSize >= maxSize){
+        alert("Queue is already full.")
+    }else{
+        queue[currentSize] = newVal ;
+        currentSize++ ;
+    }
+}
+
+function display(){
+    console.log(queue) ;
+}
+
+function dequeue(){
+    if(currentSize > 0){
+    for(let i=0 ; i<queue.length ; i++){
+    // console.log(queue[i]) ;
+        queue[i] = queue[i + 1]
+    }
+    currentSize-- ;
+    queue.length = currentSize ;
+    }else{
+       alert("Queue is already empty.")
+    }
+
+}
+
+
+// Interview Question :-  Finding  Front value in Queue ?
+        function front(){
+            if(currentSize > 0){
+                console.log(queue[0]) ;
+            }else{
+                alert("Queue is already empty.")
+            }
+        }
+           
+        
+// Interview Question :-  Finding  Rear value in Queue ?
+        function rear(){
+            if(currentSize > 0){
+                console.log("Last value",queue[currentSize - 1]) ;
+            }else{
+                alert("Queue is already empty.")
+            }
+     }
+
+
+enqueue(10) ;
+enqueue(19) ;
+enqueue(150) ;
+
+
+front() ;
+rear() ;
+
+display() ;
+
 
     </script>
 </head>
