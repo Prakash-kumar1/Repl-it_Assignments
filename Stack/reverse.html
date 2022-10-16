@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reverse  with Stack</title>
     <script>
+
         let data = [] ;
         let currentSize = data.length ;
         function push(newVal){
@@ -14,10 +15,34 @@
         }
 
         function pop(){
+           lastRemovedItem = data[currentSize - 1] ;
             currentSize -= 1 ;
-
+            data.length = currentSize ;
+            return lastRemovedItem ;
         }
+
+        function reverseStr(item){
+            console.log(item) ;
+            for (let i = 0; i < item.length; i++) {
+                push(item[i]) ;    
+            }
+
+            for (let i = 0; i < item.length; i++) {
+                // console.log(pop()) ;    
+                item[i] = pop() ;
+            }
+        }
+
+
+        let str = "Prakash" ;
+        str = str.split("") ;
+        reverseStr(str) ;
+        // console.log(str) ;
+        console.log(str.join("")) ;
+        // console.log("stack",data)
+
     </script>
+
 </head>
 <body>
     <h1>Reverse String with Stack in JS.</h1>
