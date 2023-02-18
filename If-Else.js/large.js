@@ -11,8 +11,9 @@
 // output :70
 
 function largest(num1,num2){
-    // write your code here
+
   // return Math.max(num1,num2); 
+
              // OR
         
     if(num1>num2){
@@ -27,4 +28,3 @@ function largest(num1,num2){
 
 
 
-  
